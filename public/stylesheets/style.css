@@ -4,6 +4,7 @@ body {
 
 a {
   color: #00B7FF;
+  cursor: pointer;
 }
 
 #container {
@@ -52,6 +53,11 @@ a {
     margin-top: 20px;
 }
 
+#emails .waiting td {
+    text-align: center;
+    color: #666;
+}
+
 table {
     max-width: 100%;
     border-collapse: collapse;
@@ -78,3 +84,17 @@ thead tr:first-child th,
   thead:first-child tr:first-child td {
     border-top: 0;
   }
+
+.address {
+    
+}
+
+.address .email {
+    
+}
+
+.address .name {
+    color: #666;
+    font-style: italic;
+    padding-left: 3px;
+}

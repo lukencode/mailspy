@@ -1,11 +1,12 @@
 //smtp listener
 var simplesmtp = require("simplesmtp"),
     MailParser = require("mailparser").MailParser,
-    events  = require('events');
+    events  = require('events')
+    uuid = require('node-uuid');
     
 exports = module.exports = new events.EventEmitter();
 
-exports.MailListner = function (port) {
+exports.MailListener = function (port) {
     console.log("Attempting to create smtp server on port " + port);
 
     var smtp = simplesmtp.createServer({ disableDNSValidation: true });
@@ -19,8 +20,9 @@ exports.MailListner = function (port) {
                 defaultCharset: "utf-8"
             });
             return envelope.parser.on("end", function (mail) {
+                mail["id"] = uuid.v4();
                 console.log(mail);
-                exports.emit('mail-recieved', mail);
+                exports.emit('mail-received', mail);
             });
         });
 
