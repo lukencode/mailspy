@@ -1,0 +1,80 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#container {
+    margin: 40px auto;
+    width: 900px;
+}
+
+#header {
+    overflow: hidden;
+    height: 50px;
+}
+
+#header h1 {
+    float: left;
+    width: 140px;
+    margin: 0;
+    line-height: 50px;
+    padding: 0;
+}
+
+#header .actions {
+    float: left;
+    width: 730px;
+    overflow: hidden;
+}
+
+#search  {
+    float: left;
+    width: 88%;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.actions .settings {
+    float: right;
+    line-height: 50px;
+}
+
+#content {
+    clear: both;
+    padding: 20px 0;
+}
+
+#emails {
+    width: 100%;
+    margin-top: 20px;
+}
+
+table {
+    max-width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th {
+    font-weight: bold;
+    vertical-align: bottom;
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+thead tr:first-child th,
+  thead tr:first-child td,
+  thead tr:first-child th,
+  thead tr:first-child td,
+  thead:first-child tr:first-child th,
+  thead:first-child tr:first-child td {
+    border-top: 0;
+  }

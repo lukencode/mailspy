@@ -1,0 +1,8 @@
+Application has thrown an uncaught exception and is terminated:
+ReferenceError: logger is not defined
+    at C:\dev\projects\mailspy\email\mailListener.js:15:20
+    at RAIServer.<anonymous> (C:\dev\projects\mailspy\node_modules\simplesmtp\node_modules\rai\lib\rai.js:84:17)
+    at Server.<anonymous> (native)
+    at Server.emit (events.js:88:20)
+    at Array.0 (net.js:771:12)
+    at EventEmitter._tickCallback (node.js:190:38)

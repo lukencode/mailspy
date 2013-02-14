@@ -1,0 +1,72 @@
+Express server listening on port NaN in development mode
+info: socket.io started
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized s19yGMuzAEP36YI9mGNN
+debug: setting request GET /socket.io/1/xhr-polling/s19yGMuzAEP36YI9mGNN?t=1360843542049
+debug: setting poll timeout
+debug: client authorized for 
+debug: clearing poll timeout
+debug: xhr-polling writing 1::
+debug: set close timeout for client s19yGMuzAEP36YI9mGNN
+Attempting to create smtp server on port 2525
+debug: setting request GET /socket.io/1/xhr-polling/s19yGMuzAEP36YI9mGNN?t=1360843542069
+debug: setting poll timeout
+debug: clearing poll timeout
+debug: xhr-polling writing 5:::{"name":"connected","args":[{}]}
+debug: set close timeout for client s19yGMuzAEP36YI9mGNN
+debug: discarding transport
+debug: cleared close timeout for client s19yGMuzAEP36YI9mGNN
+debug: setting request GET /socket.io/1/xhr-polling/s19yGMuzAEP36YI9mGNN?t=1360843542280
+debug: setting poll timeout
+debug: discarding transport
+debug: cleared close timeout for client s19yGMuzAEP36YI9mGNN
+{ html: 'MAAAAAAAAAAAAAAAD\n',
+  headers: 
+   { 'mime-version': '1.0',
+     from: 'test@test.test',
+     to: 'lukeiscool@luke.com',
+     date: '14 Feb 2013 22:05:43 +1000',
+     subject: 'u mad bro',
+     'content-type': 'text/html; charset=us-ascii',
+     'content-transfer-encoding': 'quoted-printable' },
+  subject: 'u mad bro',
+  priority: 'normal',
+  from: [ { address: 'test@test.test', name: '' } ],
+  to: [ { address: 'lukeiscool@luke.com', name: '' } ] }
+GOT IT
+debug: clearing poll timeout
+debug: xhr-polling writing 5:::{"name":"mail","args":[{"html":"MAAAAAAAAAAAAAAAD\n","headers":{"mime-version":"1.0","from":"test@test.test","to":"lukeiscool@luke.com","date":"14 Feb 2013 22:05:43 +1000","subject":"u mad bro","content-type":"text/html; charset=us-ascii","content-transfer-encoding":"quoted-printable"},"subject":"u mad bro","priority":"normal","from":[{"address":"test@test.test","name":""}],"to":[{"address":"lukeiscool@luke.com","name":""}]}]}
+debug: set close timeout for client s19yGMuzAEP36YI9mGNN
+debug: setting request GET /socket.io/1/xhr-polling/s19yGMuzAEP36YI9mGNN?t=1360843543661
+debug: setting poll timeout
+debug: discarding transport
+debug: cleared close timeout for client s19yGMuzAEP36YI9mGNN
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized 6e58AZk006swp5GimGNO
+debug: clearing poll timeout
+debug: xhr-polling writing 8::
+debug: set close timeout for client s19yGMuzAEP36YI9mGNN
+debug: xhr-polling closed due to exceeded duration
+{ html: 'MAAAAAAAAAAAAAAAD\n',
+  headers: 
+   { 'mime-version': '1.0',
+     from: 'test@test.test',
+     to: 'lukeiscool@luke.com',
+     date: '14 Feb 2013 22:06:08 +1000',
+     subject: 'u mad bro',
+     'content-type': 'text/html; charset=us-ascii',
+     'content-transfer-encoding': 'quoted-printable' },
+  subject: 'u mad bro',
+  priority: 'normal',
+  from: [ { address: 'test@test.test', name: '' } ],
+  to: [ { address: 'lukeiscool@luke.com', name: '' } ] }
+GOT IT
+debug: setting request GET /socket.io/1/xhr-polling/6e58AZk006swp5GimGNO?t=1360843571893
+debug: setting poll timeout
+debug: client authorized for 
+debug: clearing poll timeout
+debug: xhr-polling writing 1::
+debug: set close timeout for client 6e58AZk006swp5GimGNO
+Attempting to create smtp server on port 2525

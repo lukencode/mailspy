@@ -1,0 +1,97 @@
+Express server listening on port NaN in development mode
+info: socket.io started
+debug: discarding transport
+debug: xhr-polling received data packet 1::20
+    at RAIServer.&lt;anonymous&gt; (C
+debug: setting request GET /socket.io/1/xhr-polling/zp77gbQB47eWqCMGnvEB?t=1360844205736
+debug: setting poll timeout
+debug: clearing poll timeout
+debug: xhr-polling writing 7:::1+0
+debug: set close timeout for client zp77gbQB47eWqCMGnvEB
+warn: client not handshaken client should reconnect
+info: transport end (error)
+debug: cleared close timeout for client zp77gbQB47eWqCMGnvEB
+debug: discarding transport
+debug: discarding transport
+debug: xhr-polling received data packet 0::
+debug: got disconnection packet
+debug: client authorized
+info: handshake authorized -XwsG8r0CmUSkdb7orAt
+debug: setting request GET /socket.io/1/xhr-polling/-XwsG8r0CmUSkdb7orAt?t=1360844206904
+debug: setting poll timeout
+debug: client authorized for 
+debug: clearing poll timeout
+debug: xhr-polling writing 1::
+debug: set close timeout for client -XwsG8r0CmUSkdb7orAt
+Attempting to create smtp server on port 2525
+debug: setting request GET /socket.io/1/xhr-polling/-XwsG8r0CmUSkdb7orAt?t=1360844206935
+debug: setting poll timeout
+debug: clearing poll timeout
+debug: xhr-polling writing 5:::{"name":"connected","args":[{}]}
+debug: set close timeout for client -XwsG8r0CmUSkdb7orAt
+debug: discarding transport
+debug: cleared close timeout for client -XwsG8r0CmUSkdb7orAt
+debug: xhr-polling received data packet 1::20
+    at RAIServer.&lt;anonymous&gt; (C
+debug: setting request GET /socket.io/1/xhr-polling/-XwsG8r0CmUSkdb7orAt?t=1360844207151
+debug: setting poll timeout
+debug: discarding transport
+debug: cleared close timeout for client -XwsG8r0CmUSkdb7orAt
+{ html: 'MAAAAAAAAAAAAAAAD\n',
+  headers: 
+   { 'mime-version': '1.0',
+     from: 'test@test.test',
+     to: 'lukeiscool@luke.com',
+     date: '14 Feb 2013 22:16:48 +1000',
+     subject: 'u mad bro',
+     'content-type': 'text/html; charset=us-ascii',
+     'content-transfer-encoding': 'quoted-printable' },
+  subject: 'u mad bro',
+  priority: 'normal',
+  from: [ { address: 'test@test.test', name: '' } ],
+  to: [ { address: 'lukeiscool@luke.com', name: '' } ] }
+debug: clearing poll timeout
+debug: xhr-polling writing 5:::{"name":"mail","args":[{"html":"MAAAAAAAAAAAAAAAD\n","headers":{"mime-version":"1.0","from":"test@test.test","to":"lukeiscool@luke.com","date":"14 Feb 2013 22:16:48 +1000","subject":"u mad bro","content-type":"text/html; charset=us-ascii","content-transfer-encoding":"quoted-printable"},"subject":"u mad bro","priority":"normal","from":[{"address":"test@test.test","name":""}],"to":[{"address":"lukeiscool@luke.com","name":""}]}]}
+debug: set close timeout for client -XwsG8r0CmUSkdb7orAt
+debug: setting request GET /socket.io/1/xhr-polling/-XwsG8r0CmUSkdb7orAt?t=1360844208776
+debug: setting poll timeout
+debug: discarding transport
+debug: cleared close timeout for client -XwsG8r0CmUSkdb7orAt
+{ html: 'MAAAAAAAAAAAAAAAD\n',
+  headers: 
+   { 'mime-version': '1.0',
+     from: 'test@test.test',
+     to: 'lukeiscool@luke.com',
+     date: '14 Feb 2013 22:16:52 +1000',
+     subject: 'u mad bro',
+     'content-type': 'text/html; charset=us-ascii',
+     'content-transfer-encoding': 'quoted-printable' },
+  subject: 'u mad bro',
+  priority: 'normal',
+  from: [ { address: 'test@test.test', name: '' } ],
+  to: [ { address: 'lukeiscool@luke.com', name: '' } ] }
+debug: clearing poll timeout
+debug: xhr-polling writing 5:::{"name":"mail","args":[{"html":"MAAAAAAAAAAAAAAAD\n","headers":{"mime-version":"1.0","from":"test@test.test","to":"lukeiscool@luke.com","date":"14 Feb 2013 22:16:52 +1000","subject":"u mad bro","content-type":"text/html; charset=us-ascii","content-transfer-encoding":"quoted-printable"},"subject":"u mad bro","priority":"normal","from":[{"address":"test@test.test","name":""}],"to":[{"address":"lukeiscool@luke.com","name":""}]}]}
+debug: set close timeout for client -XwsG8r0CmUSkdb7orAt
+debug: setting request GET /socket.io/1/xhr-polling/-XwsG8r0CmUSkdb7orAt?t=1360844212278
+debug: setting poll timeout
+debug: discarding transport
+debug: cleared close timeout for client -XwsG8r0CmUSkdb7orAt
+debug: clearing poll timeout
+debug: xhr-polling writing 8::
+debug: set close timeout for client -XwsG8r0CmUSkdb7orAt
+debug: xhr-polling closed due to exceeded duration
+debug: setting request GET /socket.io/1/xhr-polling/-XwsG8r0CmUSkdb7orAt?t=1360844232309
+debug: setting poll timeout
+debug: discarding transport
+debug: cleared close timeout for client -XwsG8r0CmUSkdb7orAt
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized YMYEbYW6xhggggoBorAu
+debug: setting request GET /socket.io/1/xhr-polling/YMYEbYW6xhggggoBorAu?t=1360844248527
+debug: setting poll timeout
+debug: client authorized for 
+debug: clearing poll timeout
+debug: xhr-polling writing 1::
+debug: set close timeout for client YMYEbYW6xhggggoBorAu
+Attempting to create smtp server on port 2525
