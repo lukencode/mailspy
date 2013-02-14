@@ -1,5 +1,0 @@
-Express server listening on port NaN in development mode
-info: socket.io started
-debug: served static content /socket.io.js
-debug: client authorized
-info: handshake authorized wUx-_2AkZnmgxVr7nryE
