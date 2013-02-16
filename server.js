@@ -37,14 +37,26 @@ console.log("Express server listening on port %d in %s mode", app.address().port
 //mail
 var mailListener = require('./email/mailListener');
 var listener = new mailListener.MailListener(2525);
+var filter = require('./email/mailFilter');
 
 //socket io
 var io = require('socket.io').listen(app);
 
 io.sockets.on('connection', function (socket) {
+    socket.filter = null;
+
     mailListener.on("mail-received", function (mail) {
-        socket.emit('push-mail', mail);
+
+        if (filter.matches(socket.filter, mail)) {
+            socket.emit('push-mail', mail);
+        }
+
         //todo save it
+    });
+
+    socket.on("update-filter", function (data) {
+        socket.filter = filter.parse(data.query);
+        //todo get matches from db
     });
 });
 

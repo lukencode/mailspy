@@ -19,8 +19,14 @@ function listen() {
         return String.format("<span class='address'><span class='email'>{0}</span> <span class='name'>{1}</span></span>", address.address, address.name); 
     }
 
-    function matchesFilter(mail) {
-        return true;
+    function filter(q) {
+        if (!q.length) return;
+
+        socket.emit("update-filter", { query: q });
+        emails = {}; //todo somehow parse existing emails? or just wait till mongo and return from db
+
+        targetElement.children("tr").not(".waiting").remove();
+        targetElement.children(".waiting").show();
     }
 
     function add(mail) {
@@ -43,13 +49,17 @@ function listen() {
         socket = io.connect('/');
         socket.on('push-mail', function (mail) {
             console.log(mail);
-            if(matchesFilter(mail))
-                add(mail);
+            add(mail);
         });        
     }
 
     function init() {
         targetElement = $("#emails tbody");
+
+        $("#search").keyup(function (e) {
+            if (e.keyCode == 13)
+                filter($(this).val());
+        });
     }
 
     $(function () {
